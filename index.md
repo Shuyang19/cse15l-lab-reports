@@ -2,4 +2,5 @@
 - name: *Shuyang*
 - age: *19*
 - major: *physics*
-> class name: 'cse15l'
+> class name: 
+`cse15l`

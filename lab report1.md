@@ -1,12 +1,12 @@
 # Lab Report 1
 ## step 1: log into a course-specific account on ieng6
 
-[Link](https://sdacs.ucsd.edu/~icc/index.php)
+[Link ti ieng6](https://sdacs.ucsd.edu/~icc/index.php)
 ![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/1.jpg)
 ![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/2.jpg)
 
 ## Step 2: Installing VScode
-[Link](https://code.visualstudio.com/)
+[Link to download VScode](https://code.visualstudio.com/)
 ![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/3.jpg)
 Go to the link above and click the download button.
 

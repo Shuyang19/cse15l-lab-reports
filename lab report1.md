@@ -52,6 +52,7 @@ First log out the account you current using by:
 - Ctrl + D
 - Type exit in the terminal
 Create a file call WhereAmI.java on your own computer:
+
 class WhereAmI {
   		public static void main(String[] args) {
     			System.out.println(System.getProperty("os.name"));
@@ -60,13 +61,19 @@ class WhereAmI {
     			System.out.println(System.getProperty("user.dir"));
   		}
 }
-- Using javac and java command to compile and run the file:
-	javac WhereAmI.java
-  java WhereAmI
-- Run the scp command:
-  scp WhereAmI.java cs15lfa22__@ieng6.ucsd.edu:~/ 
+
+Using javac and java command to compile and run the file:
+	j
+	avac WhereAmI.java
+  
+  	java WhereAmI
+
+Run the scp command:
+
+scp WhereAmI.java cs15lfa22__@ieng6.ucsd.edu:~/ 
 (enter your username on the horizontal line.)
-- Then login to the account again using ssh command, and you need to enter your password
+
+Then login to the account again using ssh command, and you need to enter your password
 
 
 

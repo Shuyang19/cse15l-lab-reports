@@ -9,6 +9,7 @@
 [Link](https://code.visualstudio.com/)
 ![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/3.jpg)
 Go to the link above and click the download button.
+
 If you successfully download the VScode, open it, you will see the screen below
 ![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/4.jpg)
 

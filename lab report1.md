@@ -63,8 +63,8 @@ class WhereAmI {
 }
 
 Using javac and java command to compile and run the file:
-	j
-	avac WhereAmI.java
+
+	javac WhereAmI.java
   
   	java WhereAmI
 
@@ -74,6 +74,56 @@ scp WhereAmI.java cs15lfa22__@ieng6.ucsd.edu:~/
 (enter your username on the horizontal line.)
 
 Then login to the account again using ssh command, and you need to enter your password
+
+Use ls, you will see the file. Then you can run this file on the server with your course account
+
+(using the javac and java command again)
+
+![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/7.png)
+
+you will get something like the above picture
+
+## Step 6: Setting an SSH Key
+First log out from the server (Ctrl + D, exit
+
+enter ssh-keygen
+
+![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/8.png)
+
+Press enter/return when you see this, and remember the path.
+
+![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/9.png)
+
+Press enter/return two times!
+
+![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/10.png)
+
+Finally you will see the key image
+- Now log in to your account: ssh cs15lfa22__@ieng6.ucsd.edu 
+
+(enter your username on the horizontal line)
+
+you will need to enter your password
+- type mkdir .ssh in the terminal
+- log out your account(Ctrl + D, exit)
+- type scp the_path_you_get_from_previous_step.pub cs15lfa22__@ieng6.ucsd.edu:~/.ssh/authorized_keys
+The path_you_get_from_previous_step will be something like: /Users/private_account_name/.ssh/id_rsa, and enter your username on the horizontal line.
+- now you can using the scp or ssh command without entering password, which will save a lot of time.
+![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/11.png)
+
+## Step 7: Optimizing Remote Running
+- You can use semicolons to connect different commands in the same line
+- You can use quotes to quote your command after the ssh and scp commands
+- so that the shortcut to copy the file to the server and run it is:
+		
+		scp WhereAmI.java cs15lfa22oe@ieng6.ucsd.edu:~/; ssh cs15lfa22oe@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+- after doing this, if you want to make some change in your WhereAmIjava file, you just need to press the upper arrow to update the change on the server.
+![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/12.png)
+
+
+
+
+
 
 
 

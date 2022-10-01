@@ -33,6 +33,47 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 -After entering your password, you are now on the remote server and you will see some picture like below:
 ![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/5.jpg)
 
+-Now you have successfully connected to the CSE basement, and all commands will run on this computer.
+
+## Step 4: Trying Some Commands
+Type some command in the terminal, for example:
+* pwd
+* ls
+* ls -lat
+*	ls -a
+*	ls /home/linux/ieng6/cs15lfa22/other’s_username
+*	cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/
+*	cat /home/linux/ieng6/cs15lfa22/public/hello.txt
+![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/6.jpg)
+You may see something like the picture above.
+
+## Step 5: Moving Files with scp
+First log out the account you current using by:
+- Ctrl + D
+- Type exit in the terminal
+Create a file call WhereAmI.java on your own computer:
+class WhereAmI {
+  		public static void main(String[] args) {
+    			System.out.println(System.getProperty("os.name"));
+    			System.out.println(System.getProperty("user.name"));
+    			System.out.println(System.getProperty("user.home"));
+    			System.out.println(System.getProperty("user.dir"));
+  		}
+}
+- Using javac and java command to compile and run the file:
+	javac WhereAmI.java
+  java WhereAmI
+- Run the scp command:
+  scp WhereAmI.java cs15lfa22__@ieng6.ucsd.edu:~/ 
+(enter your username on the horizontal line.)
+- Then login to the account again using ssh command, and you need to enter your password
+
+
+
+
+
+
+
 
 
 

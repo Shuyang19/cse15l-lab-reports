@@ -2,16 +2,16 @@
 ## step 1: log into a course-specific account on ieng6
 
 [Link ti ieng6](https://sdacs.ucsd.edu/~icc/index.php)
-![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/1.jpg)
-![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/2.jpg)
+![Image](1.jpg)
+![Image](2.jpg)
 
 ## Step 2: Installing VScode
 [Link to download VScode](https://code.visualstudio.com/)
-![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/3.jpg)
+![Image](3.jpg)
 Go to the link above and click the download button.
 
 If you successfully download the VScode, open it, you will see the screen below
-![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/4.jpg)
+![Image](4.jpg)
 
 ## Step 3: Remotely Connecting
 -open the terminal in the VScode (terminal—new terminal) and enter a command:
@@ -31,7 +31,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 -Then it will ask you to enter the password.
 
 -After entering your password, you are now on the remote server and you will see some picture like below:
-![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/5.jpg)
+![Image](5.jpg)
 
 -Now you have successfully connected to the CSE basement, and all commands will run on this computer.
 
@@ -44,7 +44,7 @@ Type some command in the terminal, for example:
 *	ls /home/linux/ieng6/cs15lfa22/other’s_username
 *	cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/
 *	cat /home/linux/ieng6/cs15lfa22/public/hello.txt
-![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/6.jpg)
+![Image](6.jpg)
 You may see something like the picture above.
 
 ## Step 5: Moving Files with scp
@@ -79,7 +79,7 @@ Use ls, you will see the file. Then you can run this file on the server with you
 
 (using the javac and java command again)
 
-![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/7.png)
+![Image](7.png)
 
 you will get something like the above picture
 
@@ -88,15 +88,15 @@ First log out from the server (Ctrl + D, exit
 
 enter ssh-keygen
 
-![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/8.png)
+![Image](8.png)
 
 Press enter/return when you see this, and remember the path.
 
-![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/9.png)
+![Image](9.png)
 
 Press enter/return two times!
 
-![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/10.png)
+![Image](10.png)
 
 Finally you will see the key image
 - Now log in to your account: ssh cs15lfa22__@ieng6.ucsd.edu 
@@ -109,7 +109,7 @@ you will need to enter your password
 - type scp the_path_you_get_from_previous_step.pub cs15lfa22__@ieng6.ucsd.edu:~/.ssh/authorized_keys
 The path_you_get_from_previous_step will be something like: /Users/private_account_name/.ssh/id_rsa, and enter your username on the horizontal line.
 - now you can using the scp or ssh command without entering password, which will save a lot of time.
-![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/11.png)
+![Image](11.png)
 
 ## Step 7: Optimizing Remote Running
 - You can use semicolons to connect different commands in the same line
@@ -118,7 +118,7 @@ The path_you_get_from_previous_step will be something like: /Users/private_accou
 		
 		scp WhereAmI.java cs15lfa22oe@ieng6.ucsd.edu:~/; ssh cs15lfa22oe@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 - after doing this, if you want to make some change in your WhereAmIjava file, you just need to press the upper arrow to update the change on the server.
-![Image](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/12.png)
+![Image](12.png)
 
 
 

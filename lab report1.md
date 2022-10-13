@@ -63,18 +63,18 @@ First log out the account you current using by:
 - Type exit in the terminal
 Create a file call WhereAmI.java on your own computer:
 
+```
 class WhereAmI 
 {
-	public static void main(String[] args)
+  	public static void main(String[] args) 
+	{
+    		System.out.println(System.getProperty("os.name"));
+    		System.out.println(System.getProperty("user.name"));
+    		System.out.println(System.getProperty("user.home"));
+    		System.out.println(System.getProperty("user.dir"));
+  	}
 }
-class WhereAmI {
-  		public static void main(String[] args) {
-    			System.out.println(System.getProperty("os.name"));
-    			System.out.println(System.getProperty("user.name"));
-    			System.out.println(System.getProperty("user.home"));
-    			System.out.println(System.getProperty("user.dir"));
-  		}
-}
+```
 
 Using javac and java command to compile and run the file:
 

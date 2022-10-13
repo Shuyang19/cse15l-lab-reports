@@ -111,13 +111,15 @@ First log out from the server (Ctrl + D, exit
 
 enter ssh-keygen
 
+> The ssh-keygen creates a pair of files called the public key and private key. You copy the public key to a particular location on the server, and the private key in a particular location on the client. Then, the ssh command can use the pair of files in place of your password. This is a common setup step in lots of work environments that involve code on a server.
+
 ![Image](8.png)
 
-Press enter/return when you see this, and remember the path.
+When you see this line, press enter/return to specify the default path and remember the path.
 
 ![Image](9.png)
 
-Press enter/return two times!
+Press enter/return when it gives the prompt `Enter passphrase (empty for no passphrase): `, and press enter/return again when it asks you to `enter the same passphrase again`
 
 ![Image](10.png)
 

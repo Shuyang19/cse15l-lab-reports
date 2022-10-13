@@ -123,11 +123,15 @@ Finally you will see the key image
 you will need to enter your password
 - type mkdir .ssh in the terminal
 - log out your account(Ctrl + D, exit)
-- type 
+- type the following
 ```
 scp the_path_you_get_from_previous_step.pub cs15lfa22__@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
-The path_you_get_from_previous_step will be something like: /Users/private_account_name/.ssh/id_rsa, and enter your username on the horizontal line.
+The path_you_get_from_previous_step will be something like: 
+```
+/Users/private_account_name/.ssh/id_rsa, 
+```
+(enter your username on the horizontal line)
 - now you can using the scp or ssh command without entering password, which will save a lot of time.
 ![Image](11.png)
 

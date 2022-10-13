@@ -45,7 +45,7 @@ you are now on the remote server and you will see something like the below pictu
 
 ## Step 4: Trying Some Commands
 Type some command in the terminal, for example:
-、、、
+```
 pwd
 ls
 ls -lat
@@ -53,7 +53,7 @@ ls -a
 ls /home/linux/ieng6/cs15lfa22/other’s_username
 cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/
 cat /home/linux/ieng6/cs15lfa22/public/hello.txt
-、、、
+```
 ![Image](6.jpg)
 You may see something like the picture above.
 

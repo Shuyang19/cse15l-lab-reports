@@ -83,6 +83,8 @@ Using javac and java command to compile and run the file:
   	java WhereAmI
 
 Run the scp command:
+> scp command: scp copies files from one computer to another; it stands for "secure copy". It uses the same accounts and logins as ssh, so if you can ssh in a computer, you can copy files to it with scp.
+
 
 scp WhereAmI.java cs15lfa22__@ieng6.ucsd.edu:~/ 
 (enter your username on the horizontal line.)

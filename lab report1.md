@@ -85,8 +85,9 @@ Using javac and java command to compile and run the file:
 Run the scp command:
 > scp command: scp copies files from one computer to another; it stands for "secure copy". It uses the same accounts and logins as ssh, so if you can ssh in a computer, you can copy files to it with scp.
 
-
+```
 scp WhereAmI.java cs15lfa22__@ieng6.ucsd.edu:~/ 
+```
 (enter your username on the horizontal line.)
 
 Then login to the account again using ssh command, and you need to enter your password
@@ -122,7 +123,10 @@ Finally you will see the key image
 you will need to enter your password
 - type mkdir .ssh in the terminal
 - log out your account(Ctrl + D, exit)
-- type scp the_path_you_get_from_previous_step.pub cs15lfa22__@ieng6.ucsd.edu:~/.ssh/authorized_keys
+- type 
+```
+scp the_path_you_get_from_previous_step.pub cs15lfa22__@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```
 The path_you_get_from_previous_step will be something like: /Users/private_account_name/.ssh/id_rsa, and enter your username on the horizontal line.
 - now you can using the scp or ssh command without entering password, which will save a lot of time.
 ![Image](11.png)

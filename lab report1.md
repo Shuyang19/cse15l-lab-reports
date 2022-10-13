@@ -22,7 +22,7 @@ ssh yourusername@ieng6.ucsd.edu
 
 The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
 
-RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+RSA key fingerprint is SHA256:ksru****YH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
@@ -30,7 +30,15 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 -Then it will ask you to enter the password.
 
--After entering your password, you are now on the remote server and you will see some picture like below:
+-When you typing your password, the actual number will not show on the screen.
+
+-After entering your password, you will see many information about your account:
+* Your last login time
+* a greeting to your account name
+* the cluster status
+* the present time
+
+you are now on the remote server and you will see something like the below picture:
 ![Image](5.jpg)
 
 -Now you have successfully connected to the CSE basement, and all commands will run on this computer.
@@ -53,6 +61,10 @@ First log out the account you current using by:
 - Type exit in the terminal
 Create a file call WhereAmI.java on your own computer:
 
+class WhereAmI 
+{
+	public static void main(String[] args)
+}
 class WhereAmI {
   		public static void main(String[] args) {
     			System.out.println(System.getProperty("os.name"));

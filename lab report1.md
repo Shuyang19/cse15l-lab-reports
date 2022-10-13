@@ -100,6 +100,12 @@ Use ls, you will see the file. Then you can run this file on the server with you
 
 you will get something like the above picture
 
+Before using the scp and ssh command, running the WhereAmI.java would show your computer type as the OS name, and your personal private username as the username; and show the directory of the file on your own computer. After, the file is copied into your course account. Then the result of running the WhereAmI.java will change: the OS name is Linux and the username becomes your username of the course account. The home and directory shows the path of the file in you course account.
+
+Look at the pictures below to find the difference:
+
+![Image](13.png) ![Image](14.png)
+
 ## Step 6: Setting an SSH Key
 First log out from the server (Ctrl + D, exit
 
@@ -129,7 +135,7 @@ scp the_path_you_get_from_previous_step.pub cs15lfa22__@ieng6.ucsd.edu:~/.ssh/au
 ```
 The path_you_get_from_previous_step will be something like: 
 ```
-/Users/private_account_name/.ssh/id_rsa, 
+/Users/private_account_name/.ssh/id_rsa
 ```
 (enter your username on the horizontal line)
 - now you can using the scp or ssh command without entering password, which will save a lot of time.

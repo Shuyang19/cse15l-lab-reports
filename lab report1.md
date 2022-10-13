@@ -14,8 +14,8 @@ If you successfully download the VScode, open it, you will see the screen below
 ![Image](4.jpg)
 
 ## Step 3: Remotely Connecting
--open the terminal in the VScode (terminal—new terminal) and enter a command:
-ssh yourusername@ieng6.ucsd.edu
+-Open the terminal in the VScode (terminal—new terminal) and enter a command:
+`ssh yourusername@ieng6.ucsd.edu`
 (yourusername is the 11-character account you see in step 1 start with cs15l22fa.)
 
 -Press enter/return, it will show some sentence:
@@ -38,7 +38,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 * the cluster status
 * the present time
 
-you are now on the remote server and you will see something like the below picture:
+You are now on the remote server and you will see something like the below picture:
 ![Image](5.jpg)
 
 -Now you have successfully connected to the CSE basement, and all commands will run on this computer.
@@ -98,9 +98,9 @@ Use ls, you will see the file. Then you can run this file on the server with you
 
 ![Image](7.png)
 
-you will get something like the above picture
+You will get something like the above picture
 
-Before using the scp and ssh command, running the WhereAmI.java would show your computer type as the OS name, and your personal private username as the username; and show the directory of the file on your own computer. After, the file is copied into your course account. Then the result of running the WhereAmI.java will change: the OS name is Linux and the username becomes your username of the course account. The home and directory shows the path of the file in you course account.
+Before using the scp and ssh command, running the `WhereAmI.java` would show your computer type as the OS name, and your personal private username as the username; and show the directory of the file on your own computer. After, the file is copied into your course account. Then the result of running the `WhereAmI.java` will change: the OS name is Linux and the username becomes your username of the course account. The home and directory shows the path of the file in you course account.
 
 Look at the pictures below to find the difference:
 
@@ -109,7 +109,7 @@ Look at the pictures below to find the difference:
 ## Step 6: Setting an SSH Key
 First log out from the server (Ctrl + D, exit
 
-enter ssh-keygen
+enter `ssh-keygen`
 
 > The ssh-keygen creates a pair of files called the public key and private key. You copy the public key to a particular location on the server, and the private key in a particular location on the client. Then, the ssh command can use the pair of files in place of your password. This is a common setup step in lots of work environments that involve code on a server.
 
@@ -119,16 +119,16 @@ When you see this line, press enter/return to specify the default path and remem
 
 ![Image](9.png)
 
-Press enter/return when it gives the prompt `Enter passphrase (empty for no passphrase): `, and press enter/return again when it asks you to `enter the same passphrase again`
+Press enter/return when it gives the prompt `Enter passphrase (empty for no passphrase): `, and press enter/return again when it asks you to `Enter same passphrase again`
 
 ![Image](10.png)
 
 Finally you will see the key image
-- Now log in to your account: ssh cs15lfa22__@ieng6.ucsd.edu 
+- Now log in to your account: `ssh cs15lfa22__@ieng6.ucsd.edu` 
 
 (enter your username on the horizontal line)
 
-you will need to enter your password
+You will need to enter your password
 - type mkdir .ssh in the terminal
 - log out your account(Ctrl + D, exit)
 - type the following

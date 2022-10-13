@@ -8,4 +8,4 @@
 
 [Lab Report 0](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/lab-report-1-week-0.md)
 
-[Lab Report 1](https://github.com/Shuyang19/cse15l-lab-reports/blob/main/lab%20report1.md)
+[Lab Report 1]([https://github.com/Shuyang19/cse15l-lab-reports/blob/main/lab%20report1.md](https://shuyang19.github.io/cse15l-lab-reports/lab%20report1))

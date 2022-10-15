@@ -85,7 +85,10 @@ else if (parameters[0].equals("s"))
 }
 
 ```
--so that the word "pineapple" are now in the str list by using the add() method, and the page will tell you that "String added". I also added "apple" and "banana".
+-so that the word "pineapple" are now in the str list by using the add() method, and the page will tell you that "String added". I added "apple" and "banana".
+
+- Now, the str is ["apple", "banana", "pineapple"].
+
 Query:
 
 ![Image](2.2.png)
@@ -115,3 +118,6 @@ Query:
 }
  ```
 -It will create a new empty string strlist, and finding out whether the elements in the str stringlist (which are we added previously) contains the string after "=" in the URL(which is the word we search for). Every element contains the searching word will be added to the strlist String with a semicolon, and finally it will dispaly the strlist, which contains all the elements satisfying our searching.
+-The first image search for "app", so that the strlist is now "apple; pineapple"; the second search for "na", only "banana" contains "na" so that the strlist is now "banana; "; the third search for "a", which all three words contained, so now the strlist is "apple, banana; pineapple; ".
+
+

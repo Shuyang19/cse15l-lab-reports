@@ -71,7 +71,8 @@ class SearchEngine {
     }
 }
 ```
--Below are the screenshots of the URL in the browser and the page's response:
+Below are the screenshots of the URL in the browser and the page's response:
+
 add:
 
 ![Image](2.1.png)

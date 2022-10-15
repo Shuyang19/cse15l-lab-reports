@@ -75,6 +75,7 @@ class SearchEngine {
 add:
 
 ![Image](2.1.png)
+
 This one I call the ```handleRequest(URI url)```method in the code, created a new stringlist str; and under the situation ```url.getPath().contains("/add")```, it satisfied 
 ```
 else if (parameters[0].equals("s")) 
@@ -90,6 +91,7 @@ Query:
 ![Image](2.2.png)
 ![Image](2.3.png)
 ![Image](2.4.png)
+
 -Above are the screenshots of search, with different querys ```s=app; s = na; s = a``` separately. 
 -This one is also call the method ```handleRequest(URI url)```, and satisfy the if statemetn: ```else if (url.getPath().contains("search"))```;
 ```

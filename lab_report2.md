@@ -147,7 +147,9 @@ for (int i = 0; i< arr.length; i++)
 ```
 - It replace the first-half part of the array with the last-half part, so that when i equals half of the length of the array, ```arr[arr.length - i -1] ```will be the same as ```arr[i] ```as the original array, since the ```arr[arr.length - i -1] ```is already been replaced, so that the last-half of the array will be the same as the last-half of the original array.
 - To fix it, I create a new temp array the same as the input, and replace the part arr[arr.length - i -1] with temp[temp.length -i - 1]; since the int in temp were not changed, we can get the expected result.
+
 Below is my fixed code:
+
 ![Image](2.6.png)
 
 > The second bug is choosing from the file ListExamples.java, in the filter method:
@@ -172,4 +174,5 @@ for(String s: list)
 - To fix it, I change result.add(0, s) to result.add(s), so that the element will be added at the end of the result, which will be in the expected order.
 
 Below is my fixed code:
+
 ![Image](2.8.png)

@@ -73,6 +73,7 @@ class SearchEngine {
 ```
 -Below are the screenshots of the URL in the browser and the page's response:
 add:
+
 ![Image](2.1.png)
 This one I call the ```handleRequest(URI url)```method in the code, created a new stringlist str; and under the situation ```url.getPath().contains("/add")```, it satisfied 
 ```
@@ -85,6 +86,7 @@ else if (parameters[0].equals("s"))
 ```
 -so that the word "pineapple" are now in the str list by using the add() method, and the page will tell you that "String added". I also added "apple" and "banana".
 Query:
+
 ![Image](2.2.png)
 ![Image](2.3.png)
 ![Image](2.4.png)

@@ -146,7 +146,7 @@ for (int i = 0; i< arr.length; i++)
 }
 ```
 - It replace the first-half part of the array with the last-half part, so that when i equals half of the length of the array, ```arr[arr.length - i -1] ```will be the same as ```arr[i] ```as the original array, since the ```arr[arr.length - i -1] ```is already been replaced, so that the last-half of the array will be the same as the last-half of the original array.
-- To fix it, I create a new temp array the same as the input, and replace the part arr[arr.length - i -1] with temp[temp.length -i - 1]; since the int in temp were not changed, we can get the expected result.
+- To fix it, I create a new temp array the same as the input, and replace the part ```arr[arr.length - i -1]``` with ```temp[temp.length -i - 1]```; since the int in temp were not changed, we can get the expected result.
 
 Below is my fixed code:
 
@@ -157,8 +157,8 @@ Below is my fixed code:
 - Here is the test I wrote:
 ![Imgae](2.7.png)
 
-- The failure-inducing input is: ["cat", "dog", "apple"];
-- The symptom is [“apple”, “cat”];
+- The failure-inducing input is: ```["cat", "dog", "apple"]```
+- The symptom is ```[“apple”, “cat”]```
 - The bug is:
 ```
 for(String s: list)
@@ -171,7 +171,7 @@ for(String s: list)
 ```
 - It adds the element at index 0, which will add it at the beginning of the result, so that in reverse order;
 
-- To fix it, I change result.add(0, s) to result.add(s), so that the element will be added at the end of the result, which will be in the expected order.
+- To fix it, I change ```result.add(0, s)``` to ```result.add(s)```, so that the element will be added at the end of the result, which will be in the expected order.
 
 Below is my fixed code:
 

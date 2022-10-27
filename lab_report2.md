@@ -137,7 +137,8 @@ the third search for "a", which all three words contained, so now the strlist is
 ![Image](2.5.png)
 
 - The failure-inducing input is:```{1, 2, 3, 4, 5, 6, 7, 8, 9}```
-- The symptom is ```{9, 8, 7, 6, 5, 6, 7, 8, 9}```
+- The symptom is ```arrays first differed at element [5]; expected:<4> but was:<6>```
+![Image](symptom1.png)
 - The bug is: 
 ```
 for (int i = 0; i< arr.length; i++)

@@ -160,7 +160,7 @@ Below is my fixed code:
 
 - The failure-inducing input is: ```["cat", "dog", "apple"]```
 - The symptom is ```arrays first differed at element [0]; expected:<[cat]> but was:<[apple]>```
-![Image](sympotom2.png)
+![Image](symptom2.png)
 - The bug is:
 ```
 for(String s: list)

@@ -159,7 +159,8 @@ Below is my fixed code:
 ![Imgae](2.7.png)
 
 - The failure-inducing input is: ```["cat", "dog", "apple"]```
-- The symptom is ```[“apple”, “cat”]```
+- The symptom is ```arrays first differed at element [0]; expected:<[cat]> but was:<[apple]>```
+![Image](sympotom2.png)
 - The bug is:
 ```
 for(String s: list)

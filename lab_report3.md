@@ -1055,6 +1055,18 @@ technical/biomed/1468-6708-3-1.txt
 ```
 - we can change the -30 to any numbers, with both - or + sign, it will locate and print the files in the current directory that was asscessed less than(the + sign will be more than) 30 minites ago. It's useful when we want to find which file we have just accessed or has long time not been accessed.
 
+```
+yehanniao@yehanniaodeMacBook-Pro docsearch-main % find technical -mtime 0
+```
+```
+technical
+technical/.DS_Store
+technical/biomed
+technical/biomed/1468-6708-3-1.txt
+```
+- It will search file in the technical directory that were modified in the last twenty-four hours, so that we can use this command to find the file we just modified.
+
+ 
 
 
 

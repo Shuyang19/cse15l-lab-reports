@@ -1039,7 +1039,7 @@ technical/911report/chapter-12.txt
 technical/911report/chapter-10.txt
 technical/911report/chapter-11.txt
 ```
-
+- We can change the -1M to +1M, +2M, -2M.etc, and this command line will locate and print the files in the current directory whoes size is greater smaller than 1M, so that if we want to find a file with specific size, we can use this command line.
 
 
 

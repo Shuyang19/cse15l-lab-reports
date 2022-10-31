@@ -1,5 +1,6 @@
 # Lab Report 3
 ## less
+1)
 ```
 less -N find-results.txt
 ```
@@ -27,6 +28,8 @@ less -N find-results.txt
 ```
 - This will show the line number of the current file. so that we can know the line numbers and the correspond contents.
 
+2)
+
 ```
 less -X find-results.txt
 ```
@@ -52,8 +55,9 @@ technical//government/Gen_Account_Office/pe1019.txt
 technical//government/Gen_Account_Office/Testimony_Jul15-2002_d02940t.txt
 technical//government/Gen_Account_Office/gg96118.txt
 ```
-- This command is similar as ```less filename```, but ```less filename``` will open a new window of the results, this one could leave the resluts in the ternimal.
+- This command is similar as `less filename`, but `less filename` will open a new window of the results, this one could leave the resluts in the ternimal.
 
+3)
 ```
 less -s find-results.txt
 ```

@@ -12,6 +12,8 @@
 ## find
 ```
 find technical -size -1M
+```
+```
 technical/plos/pmed.0010058.txt
 technical/plos/pmed.0010070.txt
 technical/plos/pmed.0010064.txt
@@ -1041,6 +1043,17 @@ technical/911report/chapter-11.txt
 ```
 - We can change the -1M to +1M, +2M, -2M.etc, and this command line will locate and print the files in the current directory whoes size is greater smaller than 1M, so that if we want to find a file with specific size, we can use this command line.
 
+
+```
+yehanniao@yehanniaodeMacBook-Pro docsearch-main % find technical -amin -30
+```
+```
+technical
+technical/.DS_Store
+technical/biomed/1468-6708-3-3.txt
+technical/biomed/1468-6708-3-1.txt
+```
+- we can change the -30 to any numbers, with both - or + sign, it will locate and print the files in the current directory that was asscessed less than(the + sign will be more than) 30 minites ago. It's useful when we want to find which file we have just accessed or has long time not been accessed.
 
 
 

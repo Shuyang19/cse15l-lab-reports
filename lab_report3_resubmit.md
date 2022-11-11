@@ -35,6 +35,45 @@ technical//plos
 technical//biomed
 technical//911report
 ```
+
+- example 2
+
+```
+yehanniao@yehanniaodeMacBook-Pro docsearch-main % grep -v "e" technical/plos/journal.pbio.0020001.txt
+
+  
+    
+      
+        
+        
+          
+          
+        
+      
+      
+        2002).
+        
+          
+            Canada?
+          
+        
+      
+      
+        programs.
+      
+      
+        journals (
+        In 
+      
+      
+        world.
+        
+          
+          
+        
+        built.
+      
+```
 - It will list the lines that does not contains ".txt" (the string we input), so that when we find lines, it will be convenient to exclude the lines we do not need.
 
 3) -n

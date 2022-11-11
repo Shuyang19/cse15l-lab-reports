@@ -6,6 +6,16 @@
 yehanniao@yehanniaodeMacBook-Pro docsearch-main % grep -c ".txt" find-results.txt
 1391
 ```
+- example 2
+```
+yehanniao@yehanniaodeMacBook-Pro docsearch-main % grep -c "like" technical/911report/chapter-1.txt
+18
+```
+- example 3
+```
+yehanniao@yehanniaodeMacBook-Pro docsearch-main % grep -c "chapter" find-results.txt  
+16
+```
 - It will shows the total number of lines that contains ".txt" (the string we want to find), so that we don't need to create a new file and use `wc`to find the total line number.
 
 2) -v

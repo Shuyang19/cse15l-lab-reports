@@ -160,6 +160,7 @@ yehanniao@yehanniaodeMacBook-Pro docsearch-main % grep -n "plos" find-results.tx
 ```
 
 - example 2
+
 ```
 yehanniao@yehanniaodeMacBook-Pro docsearch-main % grep -n "911report" find-results.txt
 1386:technical//911report
@@ -181,6 +182,7 @@ yehanniao@yehanniaodeMacBook-Pro docsearch-main % grep -n "911report" find-resul
 1402:technical//911report/chapter-10.txt
 1403:technical//911report/chapter-11.txt
 ```
+
 - example 3
 
 ```

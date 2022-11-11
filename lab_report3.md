@@ -75,6 +75,63 @@ yehanniao@yehanniaodeMacBook-Pro docsearch-main % grep -v "e" technical/plos/jou
     
   
 ```
+- example 3
+```
+yehanniao@yehanniaodeMacBook-Pro docsearch-main % grep -v "a" technical/biomed/1468-6708-3-1.txt          
+
+  
+    
+      
+        Introduction/
+        elderly [ 9 ] .
+      
+      
+        
+          Study
+        
+        
+        
+        
+          ] .
+          (for persons who were never in excellent, very good, or
+          report results using only the simpler definition.
+          findings.
+        
+        
+        
+        
+        
+      
+      
+        Results
+        likely.
+        from 25 to 29.9. The second column, which shows results
+        under 20.
+        groups.
+        YOL or YHL.
+      
+      
+        Discussion
+        
+        
+        
+          YHL.
+        
+        
+        
+      
+      
+        Conclusion
+        'overweight' by the NHLBI guidelines. This suggests using
+      
+      
+        Competing interests
+      
+      
+        CESD Center for Epidemiologic Studies Depression
+        poor?
+      
+```
 - It will list the lines that does not contains ".txt" (the string we input), so that when we find lines, it will be convenient to exclude the lines we do not need.
 
 3) -n

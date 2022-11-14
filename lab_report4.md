@@ -23,9 +23,8 @@ n
 ![Image](4.1.jpg)
 - the `ce` command will delete the word start and let you into the INSERT MODE
 ![Image](4.2.jpg)
-- then enter `base`
+- enter `base`, then press`<esc>` to escape the insert mode and back to normal mode
 ![Image](4.3.jpg)
-- press`<esc>` to escape the insert mode and back to normal mode
 - the command `n` will find the next start in the file
 ![Image](4.4.jpg)
 - press `.` to repeat last command, which is deleting start and insert base
@@ -33,4 +32,7 @@ n
 - repeat the command `n` and `.` until get the notice that there aren't any start in the file
 ![Image](4.6.jpg)
 - the command `:wq` will save the file and exit vim
+![Image](4.7.jpg)
+![Image](4.8.jpg)
+
 

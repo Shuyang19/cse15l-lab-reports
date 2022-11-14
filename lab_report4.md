@@ -31,7 +31,8 @@ n
 ![Image](4.5.jpg)
 - repeat the command `n` and `.` until get the notice that there aren't any start in the file
 ![Image](4.6.jpg)
-- the command `:wq` will save the file and exit vim
+- `:wq<enter>` will save the file and exit vim
+
 ![Image](4.7.jpg)
 ![Image](4.8.jpg)
 

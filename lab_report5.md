@@ -54,6 +54,15 @@ fi
 -  `echo "You can not get scores from this part, [0/0]CompliePoint"`: print the message about the point on the screen
 -  `exit 1` exit running
 
+line that does not run:
+-  `echo "Wrong file, please check your submission, [0/1]BasicPoint"`
+   `exit 1`
+    since they are in the if branch that doesn’t evaluate
+- `echo "good job, [1/1]CompliePoint"`
+  `java -cp $CPATH  org.junit.runner.JUnitCore TestListExamples > stdout.txt`
+  `cat stdout.txt`
+   since they are in the if branch that doesn’t evaluate
+
 
 
 
